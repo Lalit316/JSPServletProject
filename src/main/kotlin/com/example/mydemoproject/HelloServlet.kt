@@ -8,7 +8,7 @@ class HelloServlet : HttpServlet() {
     private lateinit var message: String
 
     override fun init() {
-        message = "Hello World!, Clicking the button to start hello servlet"
+        message = "Hello World!, This is your first program Lalit!!!"
     }
 
     public override fun doGet(request: HttpServletRequest, response: HttpServletResponse) {
